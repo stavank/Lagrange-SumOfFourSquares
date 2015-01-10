@@ -5,6 +5,8 @@ This is a sequential and parallel code in Parallel Java 2 , for the Lagrange the
 These programs are written in Parallel Java 2, a library develped by Prof. Alan Kaminsky - http://www.cs.rit.edu/~ark/
 (Explanations and download instructions for Parallel Java 2 - http://www.cs.rit.edu/~ark/pj2.shtml )
 
+The sequential version runs on a single processor, whereas, the parallel version can be run on multi-core chip with any number of cores.
+
 This implemenation has the following characteristics : 
 
 // Input is any integer
@@ -23,5 +25,7 @@ This implemenation has the following characteristics :
 
 // Usage for parallel vesion : <TT> java pj2 jar=FourSquaresSmp.jar FourSquaresSmp <I>number</I> </TT> 
 
+// Parallel version with 'n' cores <TT> java pj2 cores=n jar=FourSquaresSmp.jar FourSquaresSmp <I>number</I> </TT>
+ 
 
 
